@@ -1,0 +1,13 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+	min-height: 100%;
+}
+
+.MainPage__content {
+    flex: 1 0 auto;
+}
+
+.MainPage__footer {
+    flex: 0 0 auto;
+}
