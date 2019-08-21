@@ -1,17 +1,16 @@
-import React from 'react';
-import './Icon.css'
+import React from 'react'
 
 interface IProps {
-    src: 'string',
-    alt: 'string'
+    src: string,
+    alt: string
 }
 
-const Header: React.FC<IProps> = () => {
+const Icon: React.FC<IProps> = ({src, alt}) => {
   return (
-    <div className='Icon'>
-       <img src="" alt="Icon"/>     
+    <div className='w-8'>
+       <img className='block object-contain object-center' src={src} alt={alt}/>     
     </div>
   );
 }
 
-export default Header;
+export default Icon;

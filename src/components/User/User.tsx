@@ -1,16 +1,26 @@
-import React from 'react';
+import React from 'react'
 
-import './MainPage.css';
+import UserIcon from '../UserIcon/UserIcon'
+import dropDownArrow from './dropdown arrow.png'
 
-interface IProps {}
+
+interface IProps {
+    username: string
+}
 
 interface IState {}
 
 class User extends React.Component<IProps, IState> {
     render() {
         return (
-            <div>
-                User
+            <div className='px-4 w-2/12 flex items-center justify-start'>
+                <UserIcon/>
+                <div className='pl-4 mr-2'>
+                    {this.props.username}
+                </div>
+                <div>
+                    <img src={dropDownArrow} alt="dropDownArrow"/>
+                </div>
             </div>
           );
     }

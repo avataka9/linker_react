@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import MainPage from './components/MainPage'
-import GuestPage from './components/GuestPage'
+//import GuestPage from './components/GuestPage'
 
 const App: React.FC = () => {
   return (
