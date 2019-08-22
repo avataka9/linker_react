@@ -7,9 +7,9 @@ import './Header.css'
 
 const Header: React.FC = () => {
   return (
-    <div className='px-12 h-10 flex items-center'>
+    <div className='px-12 h-10 flex items-center border-b-2 border-gray-200 hover:border-orange-200 opacity-50 hover:opacity-100'>
       <User username='username'/>
-      <div className='px-4 w-8/12 h-full'>
+      <div className='px-4 w-8/12 h-full flex justify-center items-center'>
         <Search/>
         <Add/>
       </div>

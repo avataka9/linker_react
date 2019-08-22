@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../Icon/Icon'
+import SearchAddBase from '../SearchAddBase/SearchAddBase'
 
 import searchIcon from './search button.svg'
 
@@ -7,7 +7,7 @@ interface IProps {}
 
 const Search: React.FC<IProps> = () => {
   return (
-    <Icon src={searchIcon} alt='search-icon'/>
+    <SearchAddBase icon={searchIcon} alt='search-icon'/>
   );
 }
 

@@ -13,7 +13,7 @@ interface IState {}
 class User extends React.Component<IProps, IState> {
     render() {
         return (
-            <div className='px-4 w-2/12 flex items-center justify-start'>
+            <div className='px-4 w-2/12 flex items-center justify-start hover:bg-orange-300 rounded-lg cursor-pointer'>
                 <UserIcon/>
                 <div className='pl-4 mr-2'>
                     {this.props.username}

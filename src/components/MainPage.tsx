@@ -13,14 +13,14 @@ interface IState {}
 class MainPage extends React.Component<IProps, IState> {
     render() {
         return (
-            <div className='MainPage'>
-                <div className='MainPage__header'>
+            <div className='flex flex-col min-h-full'>
+                <div className=''>
                     <Header/>
                 </div>  
-                <div className='MainPage__content'>
+                <div className='flex-grow flex items-stretch'>
                     <Body/>
                 </div>
-                <div className='MainPage__footer'>
+                <div className='flex-shrink-0'>
                     <Footer/>   
                 </div>       
             </div>
