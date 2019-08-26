@@ -1,15 +1,29 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import { Switch, Route } from "react-router-dom"
+import PublicPage from "./pages/PublicPage/PublicPage"
+import MainPage from "./pages/MainPage/MainPage"
 
-import MainPage from './components/MainPage'
-//import GuestPage from './components/GuestPage'
 
-const App: React.FC = () => {
-  return (
-    <React.Fragment>
-      <MainPage/>
-    </React.Fragment>
-  );
+import './App.css'
+
+interface IProps {}
+
+interface IState {}
+
+export default class App extends React.Component<IProps, IState> {
+
+  isAuthenticated = true;
+
+  componentDidMount() {
+
+  }
+
+  render() {
+    
+    return (
+        <Route path="/" component={this.isAuthenticated?MainPage:PublicPage} />
+    );
+  }
+  
 }
 
-export default App;

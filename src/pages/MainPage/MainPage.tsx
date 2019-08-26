@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './Header/Header';
-import Body from './Body/Body';
-import Footer from './Footer/Footer';
+import Header from '../../old_components/Header/Header';
+import Body from '../../old_components/Body/Body';
+import Footer from '../../old_components/Footer/Footer';
 
 import './MainPage.css';
 
