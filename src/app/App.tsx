@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom"
-import PublicPage from "./pages/PublicPage/PublicPage"
-import MainPage from "./pages/MainPage/MainPage"
+import PublicPage from "../pages/PublicPage/PublicPage"
+import MainPage from "../pages/MainPage/MainPage"
 
 
 import './App.css'
