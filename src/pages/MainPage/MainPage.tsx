@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
+import Header from '../../components/Header/Header'
+import Body from '../../components/Body/Body'
+import Footer from '../../components/Footer/Footer'
 
-import Header from '../../old_components/Header/Header';
-import Body from '../../old_components/Body/Body';
-import Footer from '../../old_components/Footer/Footer';
-
-import './MainPage.css';
+import './MainPage.css'
 
 interface IProps {}
 
