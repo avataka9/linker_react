@@ -1,8 +1,15 @@
 import React from 'react'
 import Appearance from '../Appearance/Appearance';
 
+interface IChildren {
+  children?:object[],
+  type: string
+}
+
 interface IProps {
-  folders: object
+folders: {
+    children:IChildren[]
+}
 }
 
 const Contents: React.FC<IProps> = ({folders}) => {

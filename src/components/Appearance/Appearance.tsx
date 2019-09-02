@@ -2,9 +2,15 @@ import React from 'react'
 import AppearanceTree from './AppearanceTree';
 import AppearanceWrong from './AppearanceWrong';
 
+interface IChildren {
+  children?:object[],
+  type: string
+}
 
 interface IProps {
-  folders: object,
+  folders: {
+    children:IChildren[]
+  },
   view: string,
   order: string,
   isReverse: boolean
