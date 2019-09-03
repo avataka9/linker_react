@@ -14,10 +14,10 @@ interface IProps {
 
 const AppearanceTree: React.FC<IProps> = ({folders}) => {
   return ( 
-    <div className=''>
+    <ul className=''>
         AppearanceTree place for fast
-        <Folder folder={folders.children} isOpen={true}/>
-    </div>
+        <Folder folder={folders.children} isOpen={true} name={"all"} description={"all description"}/>
+    </ul>
   );
 }
 

@@ -14,7 +14,7 @@ folders: {
 
 const Contents: React.FC<IProps> = ({folders}) => {
   return (
-    <div className='px-4 w-2/12 py-4'>
+    <div className='pr-4 w-2/12 py-4'>
       <Appearance folders={folders} view="tree" order="alphabet" isReverse={false} />
     </div>
   );

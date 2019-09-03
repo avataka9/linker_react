@@ -3,56 +3,7 @@ import Contents from '../Contents/Contents';
 import Main from '../Main/Main';
 import Detailed from '../Detailed/Detailed';
 
-/*
-let JSONinfo = {
-  "fast":{},
-  "children":[
-    {
-      "type":"folder",
-      "name":"default name",
-      "description":"default description",
-      "isOpen":false,
-      "children":[
-        {
-              "type":"link",
-              "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
-              "image":"image src"
-            },
-            {
-              "type":"link",
-              "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
-              "image":"image src"
-            },
-            {
-              "type":"link",
-              "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
-              "image":"image src"
-            },
-            {
-              "type":"link",
-              "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
-              "image":"image src"
-            },
-            {
-              "type":"link",
-              "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
-              "image":"image src"
-            }  
-      ]
-    }
-  ]
-}
-*/
+
 
 
 let JSONinfo =  {
@@ -73,36 +24,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -116,36 +67,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -159,36 +110,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -204,36 +155,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -247,36 +198,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -296,36 +247,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -339,36 +290,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
@@ -382,36 +333,36 @@ let JSONinfo =  {
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             },
             {
               "type":"link",
               "name":"default name",
-              "name-edited":"default name",
-              "description-edited":"default description",
+              "nameEdited":"",
+              "descriptionEdited":"",
               "image":"image src"
             }
           ]
